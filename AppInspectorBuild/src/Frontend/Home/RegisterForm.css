@@ -1,0 +1,51 @@
+.register-form-container {
+  position: relative; /* Cambiar a posición relativa */
+  top: 50px; /* Ajustar la posición vertical */
+  right: 0; /* Alinear a la derecha */
+  width: 80%; /* Cambiar a un ancho responsivo */
+  top: 50px; /* Ajustar la posición vertical */
+  right: 0; /* Alinear a la derecha */
+  max-width: 400px; /* Ancho máximo para el formulario */
+  border: 1px solid #ccc; /* Borde para el formulario */
+  border-radius: 10px; /* Esquinas biseladas */
+  padding: 15px; /* Ajustar el espaciado interno */
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo semitransparente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+}
+
+.form-title {
+  text-align: center; /* Centrar el título */
+  margin-bottom: 15px; /* Espacio debajo del título */
+  color: #333; /* Color del texto del título */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column; /* Diseño vertical */
+}
+
+.register-form label {
+  margin-bottom: 5px; /* Espacio entre etiqueta y entrada */
+}
+
+.register-form input {
+  margin-bottom: 20px; /* Aumentar el espacio entre entradas */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde para entradas */
+  border-radius: 5px; /* Esquinas biseladas para entradas */
+}
+
+button[type="submit"] {
+  margin-top: 10px; /* Agregar separación superior al botón de registro */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas biseladas para el botón */
+  padding: 10px; /* Espaciado interno del botón */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

@@ -1,0 +1,8 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Estilo para el fondo del body */
+body {
+    background-color: #e0e0e0; /* Color de fondo gris claro que contrasta y combina con el diseño */
+}
+
+/* Otros estilos existentes */

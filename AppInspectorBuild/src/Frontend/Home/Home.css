@@ -1,0 +1,63 @@
+.home-container {
+  text-align: left; /* Alinear el texto a la izquierda */
+  background-color: #4f1f59;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+}
+
+.home-logo {
+  width: 50px; /* Ajustar el tamaño del logo según sea necesario */
+  margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.home-title {
+  font-size: 28px; /* Tamaño del título */
+  margin: 0;
+  font-weight: bold; /* Negrita para el título */
+}
+
+.separator {
+  border: 0;
+  height: 2px;
+  background-color: #9b1f53; /* Color de la línea de separación */
+  margin: 5px 0; /* Espacio alrededor de la línea */
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar la imagen en el cuerpo */
+}
+
+.central-image {
+  width: 30%; /* Reduce the size of the image to half */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px 0; /* Space around the image */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-top: 20px; /* Space between the image and button */
+}
+
+.register-button {
+  background-color: #9b1f53; /* Color del botón */
+  color: white; /* Color del texto */
+  font-family: 'Poppins', sans-serif; /* Fuente del botón */
+  font-size: 22px; /* Tamaño de la fuente */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Esquinas biseladas */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+}

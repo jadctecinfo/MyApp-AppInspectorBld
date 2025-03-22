@@ -1,0 +1,26 @@
+.container {
+  display: flex; /* Usar flexbox para organizar el contenido */
+  flex-direction: column; /* Colocar los elementos en una sola columna */
+  align-items: center; /* Centrar los elementos horizontalmente */
+  justify-content: flex-start; /* Alinear los elementos al inicio (parte superior) */
+  width: 100vw; /* Ocupar el ancho completo de la ventana */
+  height: 100vh; /* Ocupar la altura completa de la ventana */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  width: 100%; /* Asegurar que el header ocupe todo el ancho */
+  text-align: center; /* Centrar el texto dentro del header */
+}
+
+.form-title {
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.btn {
+  margin-top: 10px;
+}

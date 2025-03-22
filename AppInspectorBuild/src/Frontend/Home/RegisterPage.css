@@ -1,0 +1,28 @@
+.register-page-container {
+  background-color: #4f1f59; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  min-height: 100vh; /* Asegurar que ocupe toda la altura de la ventana */
+  display: flex; /* Usar flexbox para centrar el contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.register-page-title {
+  font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+  color: white; /* Color del texto */
+  text-align: center; /* Centrar el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  font-size: 2em; /* Aumentar el tamaño del título */
+  font-weight: bold; /* Poner el título en negrita */
+}
+
+.register-page-content {
+  display: flex; /* Usar flexbox para alinear la imagen y el formulario */
+  justify-content: space-between; /* Espacio entre la imagen y el formulario */
+  align-items: center; /* Alinear verticalmente */
+}
+
+.register-page-image {
+  max-width: 50%; /* Aumentar el tamaño de la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+}
